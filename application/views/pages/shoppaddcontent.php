@@ -2,8 +2,8 @@
     $this->load->view('pages/head');
 ?>
     <!-- 编辑器使用的==配置文件 start -->
-    <script type="text/javascript" src="../../../public/plug/ue/ueditor.config.js"></script>
-    <script type="text/javascript" src="../../../public/plug/ue/ueditor.all.js"></script>
+    <script type="text/javascript" src="<?php echo base_url()?>public/plug/ue/ueditor.config.js"></script>
+    <script type="text/javascript" src="<?php echo base_url()?>public/plug/ue/ueditor.all.js"></script>
     <!--  编辑器使用的==配置文件 end -->
     <![endif]-->
             <div class="row">
